@@ -3,7 +3,7 @@
 //  test
 //
 //  Created by Christopher Walker on 13/09/2017.
-//  Copyright © 2017 Christopher Walker. All rights reserved.....
+//  Copyright © 2017 Christopher Walker. All rights reserved.
 //
 
 import UIKit
@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         
         tapCount = tapCount + 1
         if tapCount >= 4 {
-            theLabel.text = "Avenit Cafea"
+            theLabel.text = "You pushed the button 4 times."
         }
     }
 
